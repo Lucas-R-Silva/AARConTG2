@@ -3,8 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MaintenanceDemo.iml" filepath="$PROJECT_DIR$/MaintenanceDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/aarcon/aarcon.iml" filepath="$PROJECT_DIR$/aarcon/aarcon.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aarcon/MaintenanceDemo.aarcon.iml" filepath="$PROJECT_DIR$/.idea/modules/aarcon/MaintenanceDemo.aarcon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aarcon/MaintenanceDemo.aarcon.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/aarcon/MaintenanceDemo.aarcon.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aarcon/MaintenanceDemo.aarcon.main.iml" filepath="$PROJECT_DIR$/.idea/modules/aarcon/MaintenanceDemo.aarcon.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aarcon/MaintenanceDemo.aarcon.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/aarcon/MaintenanceDemo.aarcon.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MaintenanceDemo.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MaintenanceDemo.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MaintenanceDemo.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MaintenanceDemo.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MaintenanceDemo.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MaintenanceDemo.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MaintenanceDemo.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MaintenanceDemo.app.unitTest.iml" />
     </modules>
   </component>
 </project>

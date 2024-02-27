@@ -38,7 +38,7 @@ public class ChangeAudioAction extends Action {
         super(control);
         this.activity = activity;
         this.speech = speech;
-        control.registerRule(this);
+        control.registerAction(this);
         instanciateTextToSpeech();
     }
 
@@ -47,7 +47,7 @@ public class ChangeAudioAction extends Action {
         this.activity = activity;
         this.speech = speech;
         this.utteranceID = utteranceID;
-        control.registerRule(this);
+        control.registerAction(this);
         instanciateTextToSpeech();
     }
 

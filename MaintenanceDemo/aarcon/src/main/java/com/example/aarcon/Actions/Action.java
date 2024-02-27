@@ -20,13 +20,13 @@ public abstract class Action extends Observable {
 
     public Action(Control control) {
         this.control = control;
-        control.registerRule(this);
+        control.registerAction(this);
     }
 
     public Action(Control control, int priority) {
         this.control = control;
         this.priority = priority;
-        control.registerRule(this);
+        control.registerAction(this);
     }
 
     /**
@@ -69,7 +69,7 @@ public abstract class Action extends Observable {
     }
 
     public void deactivate(){
-        control.deleteRule(this);
+        control.deleteAction(this);
     }
 
     public void deleteConditions(){
@@ -93,7 +93,7 @@ public abstract class Action extends Observable {
     public void setControl(Control control){
         this.control = control;
         this.addObserver(control);
-        control.registerRule(this);
+        control.registerAction(this);
     }
 
     public boolean getActive(){
